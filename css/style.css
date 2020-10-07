@@ -1,0 +1,436 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: url(../img/bg.png) center top no-repeat;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: #ff7f7f88;
+  position: fixed;
+}
+
+header .text-right {
+  color: white;
+  font-size: 14px;
+}
+
+header ul {
+  list-style: none;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+header li {
+  display: inline;
+  padding: 0px 15px;
+  margin: auto 0px;
+}
+
+header li a {
+  color: white;
+  text-transform: uppercase;
+}
+
+header li a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+header .text-right {
+  padding-top: 10px;
+}
+
+header .text-right a {
+  color: white;
+}
+
+header .text-right a:hover {
+  text-decoration: none;
+}
+
+/* one section css starts here */
+
+.sec-one {
+  width: 100%;
+  padding: 230px 0px 10px;
+  color: white;
+}
+
+.sec-one h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.sec-one p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.sec-one .first-row .btn {
+  padding: 10px 50px;
+  background-color: #fff;
+  color: #fe7f7f;
+  border-radius: 40px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  transition: 500ms ease-in-out;
+}
+
+.sec-one .btn:hover {
+  transform: scale(1.1);
+}
+
+.sec-one .second-row {
+  text-align: center;
+  margin-top: 400px;
+  margin-bottom: 50px;
+}
+
+.sec-one .second-row h2 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 54px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.sec-one .second-row p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.sec-one .third-row {
+  padding: 0px 40px 0px 100px;
+}
+
+.sec-one .third-row .card {
+  background-color: transparent;
+  border: 0px;
+  text-align: center;
+}
+.sec-one .third-row .card .card-img-top {
+  padding-left: 20px;
+}
+
+.sec-one .third-row .card .card-text {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sec-one .third-row .card h6 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.sec-one .third-row .card .card-body {
+  padding: 0px 1.25rem;
+  margin-top: 0px;
+  text-align: justify;
+}
+
+/* sec-two css starts here */
+
+.sec-two {
+  width: 100%;
+  padding: 120px 0px;
+  margin-bottom: 100px;
+}
+
+.sec-two .first-row {
+  margin-bottom: 280px;
+}
+
+.sec-two .first-row h2 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 54px;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: #fe7f7f;
+}
+
+.sec-two .first-row p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+  color: #fe7f7f;
+}
+
+.sec-two .first-row .btn {
+  padding: 10px 50px;
+  background-color: #fe7f7f;
+  color: #fff;
+  border-radius: 40px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  transition: 500ms ease-in-out;
+}
+
+.sec-two .first-row .btn:hover {
+  transform: scale(1.1);
+}
+
+/* sec-two second row css starts here */
+
+.sec-two .second-row h2 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 54px;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.sec-two .second-row p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.sec-two .third-row {
+  padding: 50px 50px;
+}
+
+.sec-two .third-row img {
+  transition: 1s ease-in-out;
+}
+
+.sec-two .third-row img:hover {
+  transform: scale(1.1);
+}
+
+/* Sec-three css starts here */
+
+.sec-three {
+  width: 100%;
+}
+
+.sec-three .first-row {
+  margin-bottom: 280px;
+}
+
+.sec-three .first-row h2 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 54px;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: #fe7f7f;
+}
+
+.sec-three .first-row p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+  color: #fe7f7f;
+}
+
+.sec-three .first-row .btn {
+  padding: 10px 50px;
+  background-color: #fe7f7f;
+  color: #fff;
+  border-radius: 40px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  transition: 500ms ease-in-out;
+}
+
+.sec-three .first-row .btn:hover {
+  transform: scale(1.1);
+}
+
+.sec-three .first-row .img-side {
+  text-align: right;
+}
+
+/* Sec-four css starts here */
+
+.sec-four {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0px 0px;
+}
+
+.sec-four .first-row {
+  margin-bottom: 280px;
+}
+
+.sec-four .first-row p {
+  padding-top: 40px;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 300;
+  color: white;
+}
+
+.sec-four .first-row h5 {
+  padding-top: 10px;
+  font-size: 44px;
+  font-weight: 600;
+  color: white;
+}
+
+/* sec-five css starts here */
+
+.sec-five {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 400px;
+}
+
+.sec-five .first-row h2 {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 54px;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: #fe7f7f;
+}
+
+.sec-five .first-row p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 30px;
+  color: #fe7f7f;
+}
+
+.sec-five .second-row {
+  padding: 0px 100px;
+  margin-top: 20px;
+}
+
+.sec-five .second-row .form-control {
+  border-radius: 40px;
+  padding: 25px;
+  width: 100%;
+  font-size: 16px;
+  background-color: #f4f4f4;
+  border: 0px;
+}
+
+.input-group > .input-group-append > .btn {
+  border-radius: 40px;
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  width: 30%;
+  background-color: #fe7f7f;
+  color: #fff;
+  border: 0px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+/* footer css starts here */
+
+.footer {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.footer h6 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.footer p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.footer .social-links {
+  list-style-type: none;
+}
+
+.footer .social-links li {
+  display: inline;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.footer .social-links li .fa {
+  background: #fff;
+  color: #111111;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  margin-right: 10px;
+  text-align: center;
+  padding: 8px 0px 0px;
+}
+
+.footer .social-links li .fa:hover {
+  color: #fe7f7f;
+}
+
+.footer .social-links li a:hover {
+  text-decoration: none;
+}
+
+.footer .list {
+  list-style-type: none;
+}
+
+.footer .list li {
+  margin-top: 10px;
+}
+
+.footer .list a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* footer bottom css starts here */
+
+.footer .bottom {
+  margin-top: 100px;
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.footer .bottom .text-right a {
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+}
